@@ -1,0 +1,26 @@
+#assigning elements to different list
+
+list1=[1,2,3]
+list2=["mango","apple","orange"]
+list3=[1,"apple","mango",2,3]
+print(list1)
+print(list2)
+print (list3)
+
+#accessing elements of the tuple
+
+mytuple=("c","c++","python")
+a=mytuple(2)
+print(a)
+
+#deleting the elements in a dictionary
+
+Mydictionary={"Jamun":"sweet","bittergourd":"bitter"}
+Mydictionary.pop("Jamun")
+print(Mydictionary)
+a={"Jamun":"sweet","bittergourd":"bitter"}
+a.clear("Jamun")
+print(a)
+b={"Jamun":"sweet","bittergourd":"bitter"}
+del b["Jamun"]
+print(b)
